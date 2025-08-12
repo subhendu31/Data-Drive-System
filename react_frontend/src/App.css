@@ -1,0 +1,104 @@
+
+body {
+  background: #f5f6fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #f5f6fa;
+}
+.auth-container, .login-container, .register-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-top: 4rem;
+  width: 350px;
+}
+input, button {
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+button {
+  background: #4285f4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #357ae8;
+}
+.logout-btn {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  background: #e53935;
+}
+.drive-container {
+  background: #fff;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  width: 700px;
+  min-height: 400px;
+}
+.drive-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.drive-path {
+  margin: 0 1rem;
+  font-weight: 500;
+  color: #4285f4;
+}
+.drive-user {
+  margin-left: auto;
+  color: #888;
+}
+.drive-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.drive-list {
+  margin-top: 1rem;
+}
+.drive-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.drive-item-folder, .drive-item-file {
+  flex: 1;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.drive-folder {
+  color: #fbbc05;
+  font-weight: 500;
+}
+.drive-file {
+  color: #4285f4;
+  text-decoration: none;
+}
+.error {
+  color: #e53935;
+  margin-top: 0.5rem;
+}
+.success {
+  color: #43a047;
+  margin-top: 0.5rem;
+}
